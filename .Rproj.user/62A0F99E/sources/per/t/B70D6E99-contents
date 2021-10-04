@@ -1,0 +1,25 @@
+---
+#Archivo necesario para la descarga de los datos
+output: html_document
+params:
+  n: NA
+  title: NA
+  cond: NA
+---
+---
+title: `r params$title`
+---
+
+```{r echo=FALSE, warning=FALSE, error=FALSE, message=FALSE}
+library(knitr)
+library(kableExtra)
+if(params$cond == TRUE){kable(params$n , booktabs = T,
+       align = "ccccc"
+)%>%
+  kable_styling(latex_options="scale_down") %>%
+  collapse_rows(columns = 1, latex_hline = "major", valign = "middle")%>%
+  kable_styling(latex_options = "HOLD_position")
+  }else{params$n}
+
+```
+

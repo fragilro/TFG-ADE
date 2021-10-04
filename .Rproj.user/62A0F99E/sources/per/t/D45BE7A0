@@ -1,0 +1,25 @@
+{
+    "id": "D45BE7A0",
+    "path": "~/Documents/TFG - Shiny/server.R",
+    "project_path": "server.R",
+    "type": "r_source",
+    "hash": "1683498259",
+    "contents": "",
+    "dirty": true,
+    "created": 1594379312411.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "cursorPosition": "16,6",
+        "scrollLine": "0",
+        "disableDependencyDiscovery": "1"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1594104348,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1594384347675,
+    "read_only": false,
+    "read_only_alternatives": []
+}
